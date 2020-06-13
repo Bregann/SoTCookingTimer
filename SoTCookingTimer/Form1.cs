@@ -80,7 +80,7 @@ namespace SoTCookingTimer
             _timer.Interval = 1000;
             _timer.Tick += TimerTick;
             _timer.Start();
-            foodType.Text = "Hot and spicy meat";
+            foodType.Text = "spicy meat";
             timeLeftLabel.Text = $"{_timerSeconds} seconds my dude";
         }
 
@@ -107,6 +107,8 @@ namespace SoTCookingTimer
                 SoundPlayer player = new SoundPlayer("SoundEffect/food.wav");
                 player.Play();
                 _timer.Dispose();
+                foodType.Text = "None";
+                timeLeftLabel.Text = $"None";
                 return;
             }
 

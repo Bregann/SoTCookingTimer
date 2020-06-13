@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoTCookingTimer", "SoTCookingTimer\SoTCookingTimer.csproj", "{956FCB9E-A389-4BAE-BF2F-A3A8B60B2F07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{956FCB9E-A389-4BAE-BF2F-A3A8B60B2F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956FCB9E-A389-4BAE-BF2F-A3A8B60B2F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956FCB9E-A389-4BAE-BF2F-A3A8B60B2F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956FCB9E-A389-4BAE-BF2F-A3A8B60B2F07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F15E8FAB-8FDF-47B4-94FD-3B406E1198DE}
+	EndGlobalSection
+EndGlobal
